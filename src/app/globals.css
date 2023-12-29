@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.creator-active-link {
+    @apply bg-indigo-700 text-white;
+}
+
+.creator-not-active-link {
+    @apply text-indigo-200 hover:text-white hover:bg-indigo-700
+}
+
+.stile-custom {
+    @apply text-green-900;
+}
+
